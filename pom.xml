@@ -4,7 +4,7 @@
     <groupId>com.vheineck</groupId>
     <artifactId>MyMavenLibSample</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.1</version>
+    <version>1.1.0</version>
     <name>MyMavenLibSample</name>
     <url>http://maven.apache.org</url>
   
@@ -20,15 +20,15 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <url>http://localhost:8081/nexus/content/repositories/releases</url>
-<!--            <url>http://localhost:8081/nexus/content/repositories/vheineck/</url>-->
+<!--            <url>http://localhost:8081/nexus/content/repositories/releases</url>-->
+            <url>http://localhost:8081/nexus/content/repositories/vheineck/</url>
         </repository>
  
         <snapshotRepository>
             <id>snapshots</id>
             <name>Internal Snapshots</name>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-<!--            <url>http://localhost:8081/nexus/content/repositories/vheineck/</url>-->
+<!--            <url>http://localhost:8081/nexus/content/repositories/snapshots</url>-->
+            <url>http://localhost:8081/nexus/content/repositories/vheineck/</url>
         </snapshotRepository>
     </distributionManagement>
     
